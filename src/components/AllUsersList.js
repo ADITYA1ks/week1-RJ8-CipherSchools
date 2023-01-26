@@ -36,7 +36,7 @@ import UserDetails from "./UserDetails";
 //     }
 // }
 
-const AllUserList = () => {
+const AllUsersList = () => {
     let [state, setState] = useState({ name: "Priyanshu Sexena" });
 
     return <h1>The name is {state.name}</h1>;
